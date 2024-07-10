@@ -1,0 +1,97 @@
+html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.body-constructor{
+    height: 100vm;
+    display: flex;
+    flex-direction: column;
+}
+/* ----------------------------------------------------------------- */
+.Header{
+    height: 120px;
+    background-color: #254336;
+}
+/* ------------------------------------------------------------------ */
+.Constructor{
+    background-color: #6B8A7A;
+    min-height:calc((100vh) - (120px) - (20px));
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.calculator-body{
+    border: 1px solid #254336;
+    height: 500px;
+    width: 400px;
+    background-color: #B7B597;
+    padding: 30px 15px;
+    flex-grow: 0;
+}
+.calculator-screen{
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+}
+.calculator-screen :first-child{
+    padding-top: 68px;
+    font-size: 32px;
+    vertical-align: text-bottom;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    background-color: bisque;
+    border: none;
+}
+.calculator-buttons{
+    height: 400px;
+    width: 100%;
+}
+
+.buttons-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.button{
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    gap: 25px;
+}
+.row-5{
+    height: 50px;
+}
+.button-grow-width{
+    width: 125px;
+}
+.button-grow-height{
+    align-self: flex-end;
+    height: 125px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.Footer{
+    background-color: #254336;
+    height: 20px;
+}
